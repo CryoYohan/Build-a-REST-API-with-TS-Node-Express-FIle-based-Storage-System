@@ -3,7 +3,7 @@ import { UnitUser,User } from "./user.interface"
 import {StatusCodes} from "http-status-codes"
 import * as database from "./user.database"
 
-export const useRouter = express.Router()
+export const useRouter = express.Router();
 
 useRouter.get("/users", async (req : Request, res : Response) =>{
     try {

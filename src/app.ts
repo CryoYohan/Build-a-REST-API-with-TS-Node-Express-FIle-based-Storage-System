@@ -2,6 +2,7 @@ import express from "express"
 import * as dotevnv from "dotenv"
 import cors from "cors"
 import helmet from "helmet"
+import { useRouter } from "./users/users.routes"
 
 dotevnv.config()
 
@@ -18,7 +19,9 @@ app.use(express.urlencoded({extended:true}))
 app.use(cors())
 app.use(helmet())
 
+app.use('/', useRouter)
+
 // START APP
-app.listen(PORT, ()=>{
+app.listen(PORT, ()=> {
     console.log(`Server is listening at port ${PORT}`)
 })
