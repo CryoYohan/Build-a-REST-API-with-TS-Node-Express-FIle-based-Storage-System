@@ -4,7 +4,8 @@
   "description": "Building a REST API in Integrative Programming and Technologies using TypeScript with JSON's and Thunder Client",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "ts-node-dev --pretty --respawn ./src/app.ts"
   },
   "repository": {
     "type": "git",
