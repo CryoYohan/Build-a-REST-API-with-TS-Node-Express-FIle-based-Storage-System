@@ -1,0 +1,16 @@
+{
+    "34491b49-f152-440e-9a03-213c1b1fa699": {
+        "id": "34491b49-f152-440e-9a03-213c1b1fa699",
+        "name": "The Witcher 3: Wild Hunt | Game of the Year Edition",
+        "price": 750,
+        "quantity": 1,
+        "image": "witcher3-goty.png"
+    },
+    "dba48a0b-45c6-4467-bf21-676d8b680873": {
+        "id": "dba48a0b-45c6-4467-bf21-676d8b680873",
+        "name": "Dragonball Sparking Zero",
+        "price": 2135,
+        "quantity": 1,
+        "image": "db-sz.png"
+    }
+}

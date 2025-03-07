@@ -1,1 +1,14 @@
-{"6113b8c4-dba5-4373-bb41-8d9d8722442f":{"id":"6113b8c4-dba5-4373-bb41-8d9d8722442f","name":"PS5","price":27900,"quantity":14,"image":"ps5.png"}}
+{
+  "245bbf32-c29d-4472-b660-c4443aa74c6d": {
+    "id": "245bbf32-c29d-4472-b660-c4443aa74c6d",
+    "username": "stephen",
+    "email": "stephen@gmail.com",
+    "password": "$2b$10$MmFzkcH7oUHT3aM7hPkMC.9SiVGhpsxcpe1dCl0J/hvFRB8dYxHn6"
+  },
+  "070c903e-8b6b-46ef-b2bc-5ea9a8efd688": {
+    "id": "070c903e-8b6b-46ef-b2bc-5ea9a8efd688",
+    "username": "cyril",
+    "email": "cyril@gmail.com",
+    "password": "$2b$10$wa5iZyKsaBWVN6fG2ulDseaEBZtEg3UsZVq.8tG.LDaGg6IxCEVcm"
+  }
+}

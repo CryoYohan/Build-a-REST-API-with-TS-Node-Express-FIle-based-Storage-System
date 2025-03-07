@@ -16,7 +16,7 @@ function loadProducts(): Products {
 
 function saveProducts() {
   try {
-    fs.writeFileSync("./users.json", JSON.stringify(products), "utf-8");
+    fs.writeFileSync("./products.json", JSON.stringify(products), "utf-8");
     console.log(`Products saved successfully!`);
   } catch (error) {
     console.log(`Error ${error}`);
